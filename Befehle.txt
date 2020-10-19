@@ -16,3 +16,8 @@ http://127.0.0.1:8000/admin/
 git status
 git add
 git add --all .
+lhaas
+Strg+C
+PythonAnywhere
+lhaas.pythonanywhere.com
+<QuerySet [<User: leoniehaas>, <User: Herold>, <User: Britta>]>

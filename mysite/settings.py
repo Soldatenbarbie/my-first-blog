@@ -17,8 +17,11 @@ import os
 BASE_DIR = Path(__file__).resolve().parent.parent
 
 
+
+
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/3.1/howto/deployment/checklist/
+LOGIN_REDIRECT_URL = '/'
 
 # SECURITY WARNING: keep the secret key used in production secret!
 SECRET_KEY = ')$45r25wya3fd=fv_w0aelz&$-#=by2it2zkmz2dp99wjlw^o!'
@@ -27,6 +30,7 @@ SECRET_KEY = ')$45r25wya3fd=fv_w0aelz&$-#=by2it2zkmz2dp99wjlw^o!'
 DEBUG = True
 
 ALLOWED_HOSTS = ['127.0.0.1', '.pythonanywhere.com']
+
 
 
 # Application definition
